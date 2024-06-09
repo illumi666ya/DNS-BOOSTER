@@ -1,0 +1,71 @@
+# ILLUMI
+# DEMONICA
+# www.bento.me/illumi
+
+# SYSTEM.PROP
+
+# CLOUDFARE DNS
+net.eth0.dns1=1.1.1.1
+net.eth0.dns2=1.0.0.1
+net.dns1=1.1.1.1
+net.dns2=1.0.0.1
+net.ppp0.dns1=1.1.1.1
+net.ppp0.dns2=1.0.0.1
+net.rmnet0.dns1=1.1.1.1
+net.rmnet0.dns2=1.0.0.1
+net.rmnet1.dns1=1.1.1.1
+net.rmnet1.dns2=1.0.0.1
+net.pdpbr1.dns1=1.1.1.1
+net.pdpbr1.dns2=1.0.0.1
+
+# IPV4 & IPV6 SUPPORT
+persist.internet.support.ipv6=1
+persist.internet.support.ipv4=1
+persist.telephony.support.ipv6=1
+persist.telephony.support.ipv4=1
+persist.dhcp.support.ipv6=1
+persist.dhcp.support.ipv4=1
+persist.dnla.support.ipv6=1
+persist.dnla.support.ipv4=1
+persist.web.support.ipv6=1
+persist.web.support.ipv4=1
+persist.tcp.support.ipv6=1
+persist.tcp.support.ipv4=1
+persist.udp.support.ipv6=1
+persist.udp.support.ipv4=1
+persist.voip.support.ipv6=1
+persist.voip.support.ipv4=1
+persist.dns.support.ipv6=1
+persist.dns.support.ipv4=1
+persist.dns2.support.ipv6=1
+persist.dns2.support.ipv4=1
+
+# IPV4 OPTIMIZATION
+net.ipv4.tcp_no_metrics_save=1
+net.ipv4.tcp_ecn=0
+net.ipv4.tcp_fack=1
+net.ipv4.tcp_mem=187000,187000,187000
+net.ipv4.tcp_moderate_rcvbuf=1
+net.ipv4.tcp_rfc1337=1
+net.ipv4.tcp_rmem=4096,39000,187000
+net.ipv4.tcp_sack=1
+net.ipv4.tcp_timestamps=1
+net.ipv4.tcp_window_scaling=1
+net.ipv4.tcp_wmem=4096,39000,187000
+net.ipv4.ip_no_pmtu_disc=0
+net.ipv4.route.flush=1
+
+# IPV6 OPTIMIZATION
+net.ipv6.tcp_ecn=0
+net.ipv6.tcp_rfc1337=1
+net.ipv6.tcp_sack=1
+net.ipv6.tcp_fack=1
+net.ipv6.tcp_window_scaling=1
+net.ipv6.tcp_timestamps=1
+net.ipv6.tcp_rmem=4096,39000,187000
+net.ipv6.tcp_wmem=4096,39000,187000
+net.ipv6.tcp_mem=187000,187000,187000
+net.ipv6.tcp_no_metrics_save=1
+net.ipv6.tcp_moderate_rcvbuf=1
+net.ipv6.route.flush=1
+net.ipv6.ip_no_pmtu_disc=0
